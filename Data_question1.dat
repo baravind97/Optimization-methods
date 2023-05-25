@@ -1,0 +1,12 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: barav
+ * Creation Date: 10 Jan 2022 at 00:47:36
+ *********************************************/
+SheetConnection dat("OPL Question-1-Excel file.xlsx");
+salad_contents from SheetRead(dat,"Sheet2!B2:B8");
+salad_nutrients from SheetRead(dat,"Sheet2!C1:H1");
+a from SheetRead(dat,"Sheet2!C2:H8");
+cost from SheetRead(dat,"Sheet2!I2:I8");
+lower from SheetRead(dat,"Sheet2!C10:H10");
+upper from SheetRead(dat,"Sheet2!C11:H11");
